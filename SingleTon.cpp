@@ -20,6 +20,8 @@ class Logger{
     }
 };
 
+Logger* Logger::logger = 0;
+
 int main() {
     // client will implement the class via the class name and will/can not create instance by itself
     Logger * logger = Logger::getloggerInstance();
